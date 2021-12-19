@@ -1,0 +1,21 @@
+name:                tictactoe
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/juanbelieni/tictactoe#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Juan Belieni
+maintainer:          juanbelieni@gmail.com
+copyright:           2021 Juan Belieni
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable tictactoe
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  other-modules:       Game, Renderer
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
